@@ -12,7 +12,7 @@ export const EXPERIENCES = [
     year: "June 2023 - August 2023",
     role: "Software Developer Intern",
     company: "Lamzing Technologies Pvt. Ltd., Imphal",
-    description: `Contributed to web accessibility improvements tor government websites   Collaborated with a team of 5 developers to implement responsive design features`,
+    description: `Contributed to web accessibility improvements for government websites   Collaborated with a team of 5 developers to implement responsive design features`,
     technologies: ["Javascript", "React.js", "HTML", "CSS"],
   },
 ];
