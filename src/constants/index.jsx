@@ -5,12 +5,30 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = (
   <p>
-    I am a motivated and technically skilled recent MCA graduate with a 7.15 CGPA, specializing in front-end development and React Js. Certified by Meta for Professional <a href="https://coursera.org/verify/professional-cert/1O0PNSVP2QB6">Meta Front-End Developer</a>. Gained practical experience through internships, contributing to web accessibility projects for government websites and developing an employee payroll database management system. Published IEEE research paper on Smart Cities in India. Eager to apply strong problem-solving skills and passion for cutting-edge technologies to drive innovation in software development.
+    I am a motivated and technically skilled recent MCA graduate with a 7.15 CGPA, specializing in front-end development and React Js. Certified by Meta for Professional <a 
+  href="https://coursera.org/verify/professional-cert/1O0PNSVP2QB6" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  style={{ color: 'cyan', transition: 'color 0.3s' }}
+  onMouseEnter={(e) => e.target.style.color = 'magenta'}
+  onMouseLeave={(e) => e.target.style.color = 'cyan'}
+>
+  Meta Front-End Developer
+</a>. Gained practical experience through internships, contributing to web accessibility projects for government websites and developing an employee payroll database management system. Published IEEE research paper on Smart Cities in India. Eager to apply strong problem-solving skills and passion for cutting-edge technologies to drive innovation in software development.
   </p>
 );
 
 
-export const ABOUT_TEXT = `I am a passionate front-end developer and recent MCA graduate with a strong academic record (7.15 CGPA). Specialized in React.js and certified by Meta for "Meta Front-End Developer" . My experience includes enhancing web accessibility for government sites and developing an employee payroll system during internships. As a published researcher with an IEEE paper on Smart Cities in India, I bring a unique perspective to software development. Driven by a love for cutting-edge tech and equipped with robust problem-solving skills, I'm ready to contribute to innovative projects in the field.`;
+export const ABOUT_TEXT = (<p>I am a passionate front-end developer and recent MCA graduate with a strong academic record (7.15 CGPA). Specialized in React.js and certified by Meta for <a 
+  href="https://coursera.org/verify/professional-cert/1O0PNSVP2QB6" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  style={{ color: 'cyan', transition: 'color 0.3s' }}
+  onMouseEnter={(e) => e.target.style.color = 'magenta'}
+  onMouseLeave={(e) => e.target.style.color = 'cyan'}
+>
+  Meta Front-End Developer
+</a>. My experience includes enhancing web accessibility for government sites and developing an employee payroll system during internships. As a published researcher with an IEEE paper on Smart Cities in India, I bring a unique perspective to software development. Driven by a love for cutting-edge tech and equipped with robust problem-solving skills, I'm ready to contribute to innovative projects in the field.</p>);
 
 export const EXPERIENCES = [
   {
