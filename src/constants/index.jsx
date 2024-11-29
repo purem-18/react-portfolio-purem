@@ -5,7 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = (
   <p>
-    I am a motivated and technically skilled recent MCA graduate with a 7.15 CGPA, specializing in front-end development and React Js. Certified by Meta for Professional <a 
+    I am a motivated and technically skilled recent MCA graduate, specializing in front-end development and React Js. Certified by Meta for Professional <a 
   href="https://coursera.org/verify/professional-cert/1O0PNSVP2QB6" 
   target="_blank" 
   rel="noopener noreferrer"
@@ -19,7 +19,7 @@ export const HERO_CONTENT = (
 );
 
 
-export const ABOUT_TEXT = (<p>I am a passionate front-end developer and recent MCA graduate with a strong academic record (7.15 CGPA). Specialized in React.js and certified by Meta for <a 
+export const ABOUT_TEXT = (<p>I am a passionate front-end developer and recent MCA graduate, specializing in React.js and certified by Meta for <a 
   href="https://coursera.org/verify/professional-cert/1O0PNSVP2QB6" 
   target="_blank" 
   rel="noopener noreferrer"
